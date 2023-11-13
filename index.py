@@ -10,3 +10,6 @@ def cifrar_contrasenia(contrasenia):
     
     #convertir la contraseña a bytes y actualizar e has
     sha256.update(contrasenia.encode('utf-8'))
+
+    #Obtener el hash resultante en formato hexadecimal
+    hash_cifrado=sha256.hexdigest()
