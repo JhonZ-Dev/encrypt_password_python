@@ -8,4 +8,5 @@ def cifrar_contrasenia(contrasenia):
     #crear un objeti has de la clase hashlib
     sha256 = hashlib.sha256()
     
-    
+    #convertir la contraseña a bytes y actualizar e has
+    sha256.update(contrasenia.encode('utf-8'))
