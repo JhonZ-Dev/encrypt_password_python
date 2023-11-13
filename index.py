@@ -17,3 +17,4 @@ def cifrar_contrasenia(contrasenia):
 
 #Ejemlo de uso
 contrasenia_usuario = "jhonmacias12"
+hash_cifrado = cifrar_contrasenia(contrasenia_usuario)
