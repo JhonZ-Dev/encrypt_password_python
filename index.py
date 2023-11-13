@@ -20,3 +20,5 @@ contrasenia_usuario = "jhonmacias12"
 hash_cifrado = cifrar_contrasenia(contrasenia_usuario)
 
 print(f"Contraseña original: {contrasenia_usuario}")
+
+print(f"Hash SHA-256: {hash_cifrado}")
